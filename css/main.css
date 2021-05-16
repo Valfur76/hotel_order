@@ -3,11 +3,15 @@
 }
 
 .btn {
+	display: block;	
 	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bc9cff+0,8ba4f9+100 */
-background: #bc9cff; /* Old browsers */
-background: -moz-linear-gradient(top,  #bc9cff 0%, #8ba4f9 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #bc9cff 0%,#8ba4f9 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #bc9cff 0%,#8ba4f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc9cff', endColorstr='#8ba4f9',GradientType=0 ); /* IE6-9 */
+	background: #bc9cff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #bc9cff 0%, #8ba4f9 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #bc9cff 0%,#8ba4f9 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #bc9cff 0%,#8ba4f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc9cff', endColorstr='#8ba4f9',GradientType=0 ); /* IE6-9 */
 
+	width: 360px;
+	height: 50px;
+	border-radius: 50%; 
 }
